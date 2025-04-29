@@ -5,4 +5,4 @@ scipy==1.14.1
 PyYAML==6.0.2
 # For plotly
 nbformat==5.10.4
-kaleido=0.2.1
+kaleido==0.2.1
