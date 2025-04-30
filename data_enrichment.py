@@ -93,6 +93,8 @@ for title in titles:
         print("Select the index which matches best, or s to skip: ", end="")
         selection = input()
         if selection == "s":
+            with unfindable_output.open("a+") as fout:
+                fout.write(f"{title}\n")
             print("Skipping..")
             continue
         selection = int(selection)
