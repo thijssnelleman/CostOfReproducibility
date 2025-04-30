@@ -1,4 +1,4 @@
-# Survey paper
+# Cost of Reproduciblity paper
 
 In this repository we present the data, code and analysis used for our paper.
 
