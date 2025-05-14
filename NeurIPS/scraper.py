@@ -35,12 +35,6 @@ for link in soup.find_all("a"):
 
 print("Retrieving from: ", base)
 
-ids = []
-titles = []
-authors = []
-pdf_urls = []
-abstracts = []
-
 meta_csv_file = target_dir / "meta.csv"
 print("Saving to: ", meta_csv_file)
 
@@ -58,16 +52,14 @@ for link_index, l in enumerate(links):
     if "accounts/login?nextp=" in l or "/poster/" not in l:
         continue
 
-    id = l.split("/")[-1]
-    if id in existing_ids:
-        print(f"Skipping {id} as it already exists")
+    paper_id = l.split("/")[-1]
+    if paper_id in existing_ids:
+        print(f"Skipping {paper_id} as it already exists")
         continue
     paper_soup = BeautifulSoup(requests.get(f"{neurips_base}{l}", headers=header, verify=False).content, "lxml")
-    how_to_cite = ""
-    pdf_url = ""
-    title = paper_soup.find("h2", class_="card-title main-title text-center").text.strip()
-    author = paper_soup.find("h3", class_="card-subtitle mb-2 text-muted text-center").text.strip().split(" · ")
-
+    pdf_url = ""  # Reset data
+    paper_title = paper_soup.find("h2", class_="card-title main-title text-center").text.strip()
+    paper_author = paper_soup.find("h3", class_="card-subtitle mb-2 text-muted text-center").text.strip().split(" · ")
     for link in paper_soup.find_all("a"):
         if "href" in link.attrs and link.text.lower().strip() == "paper":
             intermediate = link.attrs["href"]
@@ -79,22 +71,8 @@ for link_index, l in enumerate(links):
             pdf_url = link.attrs["href"]
 
     abstract = str(paper_soup.find("div", id="abstractExample").text).strip().strip("Abstract:").strip().replace("\n", " ")
-    titles.append(title)
-    abstracts.append(abstract)
-    ids.append(id)
-    authors.append(author)
-    pdf_urls.append(pdf_url)
-    print(f"({link_index}/{len(links)}) [{id}] Title: {title}")
+    print(f"({link_index}/{len(links)}) [{paper_id}] Title: {paper_title}")
     # Write meta data to CSV
     with meta_csv_file.open('a+', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
-        if ids[-1] in existing_ids:
-            print(f"Skipping {ids[-1]} as it already exists")
-            continue
-        wr.writerow([ids[-1], titles[-1], authors[-1], pdf_urls[-1], abstracts[-1]])
-
-if not (len(titles) == len(authors) == len(pdf_urls)):
-    print("ERROR: The lengths of Titles/Authors/PDFs vary: ",
-          len(titles), len(authors), len(pdf_urls))
-    sys.exit(-1)
-
+        wr.writerow([paper_id, paper_title, paper_author, pdf_url, abstract])
