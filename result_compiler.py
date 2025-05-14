@@ -1,4 +1,4 @@
-# Extracts the results of each review and compiles it into one.
+"""Extracts the results of each review and compiles it into one CSV file."""
 from pathlib import Path
 import sys
 import re

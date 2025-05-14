@@ -1,3 +1,4 @@
+"""Randomly sample papers from a source/year for reviewing. Automatically downloads the PDFs and writes a review template for it."""
 import sys
 import ast
 import pandas as pd

@@ -1,5 +1,8 @@
 """Enrich the scraped data using Scopus."""
-import sys
+
+# The code in this file is very 'hacky': it was used to quickly acquire more data and in a few cases the output data was manually fixed / curated.
+# As the resulting data did not yield great insights 'straight away', it was never brought to a more readable/repeatable level.
+
 import csv
 import yaml
 from pathlib import Path

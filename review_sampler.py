@@ -1,3 +1,4 @@
+"""Stratified random sampling of reviews for 2nd review."""
 import argparse
 import ast
 import pandas as pd
