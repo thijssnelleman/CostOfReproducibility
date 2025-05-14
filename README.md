@@ -8,8 +8,8 @@ For clarity we index each file here.
 
 Regular files:
 - 2nd_assessment_log.md  # A log of all questions asked regarding the guidelines during the second review
-- 2nd_reviews.csv  # The compiled second reviews data
-- Assessment guideline.pdf  # The assessment guidelines used for the reviews
++ 2nd_reviews.csv  # The compiled second reviews data
+* Assessment guideline.pdf  # The assessment guidelines used for the reviews
 - enriched_data.csv  # The enriched scopus data, procedurally created but manually curated
 - guidelines questionnaire.pdf  # A questionnaire answered by each participant after 2nd reviews
 - README.md  # This file
