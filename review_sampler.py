@@ -23,8 +23,8 @@ def sample_reviews(sample_size: int, source: str) -> None:
     review_data = review_data[review_data["source"] == source]
     review_data = review_data[review_data["theoretical"] == False]
 
-    # Caclulate the average rating for each paper (Excluding expertise)
-    review_data["average_rating"] = review_data[["Implementation", "Data", "Configuration", "Expertise"]].mean(axis=1)
+    # Caclulate the average rating for each paper
+    review_data["average_rating"] = review_data[["Implementation", "Data", "Configuration", "Experimental Procedure", "Expertise"]].mean(axis=1)
     # Place each paper in a stratum based on the rating: bottom 33% of papers, middle 33% of papers, top 33% of papers
     review_data["stratum"] = pd.qcut(review_data["average_rating"], 3, labels=["Low", "Middle", "High"])
 
