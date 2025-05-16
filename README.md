@@ -1,4 +1,4 @@
-# Cost of Reproduciblity paper
+# The Cost of Reproducibility in Artificial Intelligence
 
 In this repository we present the data, code and analysis used for our paper. If you wish to use the dataset, the most important file is reviews.csv, where all review data is compiled. The metadata of each paper is stored per venue directory.
 
