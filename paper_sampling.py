@@ -65,13 +65,14 @@ def write_review_template(meta_data: pd.DataFrame, selection_index: list[int], t
         review = review_template.replace("$PAPER TITLE$", meta_data.iloc[i]["Title"])
         authors = meta_data.iloc[i]["Authors"]
         project_url = ""
+        # Venues vary in what information they deliver. Here we try to check which columns are available.
         if "project_url" in meta_data.columns:
             project_url = meta_data.iloc[i]["project_url"]
         if "keywords" in meta_data.columns:
             keywords = meta_data.iloc[i]["keywords"]
         else:
             keywords = ""
-        try:
+        try:  # We made a mistake in how we wrote down the authors in some scrapers, this is a quickfix.
             authors = ", ".join(ast.literal_eval(authors))
         except:
             pass
@@ -79,6 +80,7 @@ def write_review_template(meta_data: pd.DataFrame, selection_index: list[int], t
             keywords = ", ".join(ast.literal_eval(meta_data.iloc[i]["keywords"]))
         except:
             pass
+        # Fill in the variables
         review = review.replace("$AUTHORS$", authors)
         review = review.replace("$KEYWORDS$", keywords)
         review = review.replace("$PROJECT URL$\n", f"Project URL: {project_url}\n")
@@ -95,20 +97,24 @@ def write_review_template(meta_data: pd.DataFrame, selection_index: list[int], t
 if __name__ == "__main__":
     parser = arg_parser()
     args = parser.parse_args()
-    if args.specific:
+    if args.specific:  # Download and write the template for a specific paper
+        # The specific argument is the path of which PDF should be written.
+        # This is a bit of legacy code, as we initially downloaded all PDFs and would just specify the path for which to generate a template.
         specific = args.specific
         title = specific.stem.split(" - ", maxsplit=1)[1]
         target_dir = specific.parent.parent / "reviews"
         meta_data = pd.read_csv(specific.parent / "meta.csv", index_col=0)
         index = meta_data.index.get_loc(meta_data.index[meta_data["Title"] == title].to_list()[0])
+        # Retrieve the specific paper and write the template
         if not specific.exists():
             pdf_downloader(meta_data.columns.to_list(), meta_data.iloc[index].to_list(), index, specific.parent)
         write_review_template(meta_data, [index], target_dir, specific.parent)
-        # retrieve the specific paper and write this one
         sys.exit()
+
+    # Otherwise, we sample at random
     source = args.source
     if not source:
-        print("Choose the source to sample from (AAAI, ICML, IJCAI, JAIR, JMLR):")
+        print("Choose the source to sample from (AAAI, IJCAI, ICML, NeurIPS, JAIR, JMLR):")
         source = input()
     year = args.year
     if not year:
