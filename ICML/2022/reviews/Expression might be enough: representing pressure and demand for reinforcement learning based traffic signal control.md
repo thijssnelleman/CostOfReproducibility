@@ -8,9 +8,9 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[10]
+[2]
 
-The authors provide a link to their implementation (https://github.com/LiangZhang1996/Advancd_XLight) but it gives a 404. In figure 1 they illustrate the task, in algorithm 1 and 2 pseudo code. No other notes given.
+The authors provide a link to their implementation (The href leads to github: LiangZhang1996/Advancd_XLight) but it gives a 404. This seems to be due to a typo ('advancd' is mispelled) and with the correction can easily be confirmed to match the paper (https://github.com/LiangZhang1996/Advanced_XLight). The readme states how to cite the paer and installation requirements, how to run the code, details and links to baselines, overview on the code files. The code has very few comments. In figure 1 they illustrate the task, in algorithm 1 and 2 pseudo code.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

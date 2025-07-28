@@ -10,7 +10,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [4]
 
-The authors provide a link to their implementation (https://github.com/Sulam-Group/k-rcps). In the readme they introduce the method and provide a link to zenodo for model checkpoints. There are no installation instructions. There are very few comments. The code could use an index as the structure is quite large.
+The authors provide a link to their implementation (https://github.com/Sulam-Group/k-rcps). In the readme they introduce the method and provide a link to zenodo for model checkpoints. There are no installation instructions. There are very few comments. The code could use an index as the structure is quite large. There is a demo notebook demonstrating the code but they do not make use of text in this. 
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
