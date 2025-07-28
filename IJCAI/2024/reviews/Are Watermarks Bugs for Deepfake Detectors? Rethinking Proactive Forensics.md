@@ -7,7 +7,7 @@ IJCAI/2024/Proceedings/0673 - Are Watermarks Bugs for Deepfake Detectors? Rethin
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[5]
+[7]
 
 The authors provide their code and supplementary material online (https://github.com/sh1newu/AdvMark). The authors state some updates regarding their finetuned model and link it, note that the code is incomplete and that it (in part) only serves for refences and expect independent investigators to be able to implement it based on this. They provide direct links to the data sets / models. The code is largely without comments and seemingly unstructured. This means it will be a serious effort for independent investigators to follow the flow of the process to re-implement it.
 

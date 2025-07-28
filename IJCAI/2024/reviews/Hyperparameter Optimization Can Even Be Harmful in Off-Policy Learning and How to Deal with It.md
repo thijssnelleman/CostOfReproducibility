@@ -7,7 +7,7 @@ IJCAI/2024/Proceedings/0537 - Hyperparameter Optimization Can Even Be Harmful in
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[5]
+[6]
 
 The authors state and link the toolkit they use for their empirical analysis. The authors state in section 4.3 that 'our algorithm is easy to implement with a few additional lines of code'. No source for their implementation can be found. Although the base for their implementation is given (toolkit), many details may still be found in the implementation documentation, thus it still brings some cost with it. The authors provide two pseudo code for their method, which definetily does help.
 
