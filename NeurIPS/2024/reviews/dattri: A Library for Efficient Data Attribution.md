@@ -10,7 +10,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [1]
 
-The authors provide a link to their implementation. In the readme they state their method is a library and its purpose, contents of the readme, how to install with environment setup, how to apply the method with many examples, a list of supported algorithms, supported metrics, supported benchmarks, results and planned work. There is also a documentation website, where the code is detailed with argument descriptions etc. It is extremely well documented.
+The authors provide a link to their implementation in the abstract (https://github.com/TRAIS-Lab/dattri). In the readme they state their method is a library and its purpose, contents of the readme, how to install with environment setup, how to apply the method with many examples, a list of supported algorithms, supported metrics, supported benchmarks, results and planned work. There is also a documentation website, where the code is detailed with argument descriptions etc. It is extremely well documented.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

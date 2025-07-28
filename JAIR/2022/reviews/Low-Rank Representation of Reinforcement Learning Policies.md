@@ -8,9 +8,9 @@ Project URL:
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[4]
+[6]
 
-The authors state the code will be available on GitHub upon publication, but no link is provided. They also state the code is included wit hsupplemental files as a zip, but JAIR does not provide this online. We decided to make an exception in this case, and check GitHub.com for the title of the repository, but find nothing. A second attempt with Google, with search '$TITLE$ "GitHub"' also yields no results. The authors do provide detailed Python pseudo code in Appendix A.9.1. which also provides information on which packages are used. This makes re-implementation very accesible, but will still require some work.
+The authors state the code will be available on GitHub upon publication, but no link is provided. They also state the code is included with supplemental files as a zip, but JAIR does not provide this online. We decided to make an exception in this case as mistakes could have been made with the publication process itself, and check GitHub.com for the title of the repository, but find nothing. A second attempt with Google, with search '$TITLE$ "GitHub"' also yields no results. The authors do provide detailed Python pseudo code in Appendix A.9.1. which also provides information on which packages are used. This makes re-implementation very accesible, but will still require some work.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

@@ -10,7 +10,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [1]
 
-The authors provide a link to their implementation in footnote 1 (JAIR/2023/Proceedings/15027). Overview in figure 2. In the readme they state installation notes, a quick note on the project structure, and how to get started. Code has pretty nice comments. Structure is fine.
+The authors provide a link to their implementation in footnote 1 (https://github.com/ml-research/SLASH). Overview in figure 2. In the readme they state installation notes, a quick note on the project structure, and how to get started. Code has pretty nice comments. Structure is fine.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

@@ -10,7 +10,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [2]
 
-There is no link in the paepr regarding the implementation but there is a supplementary material link on the openreview link of the publication page on neurips. The code has nearly no comments. In the readme the authors state installation requirements, tutorials regarding training and visualisation of the experiments. The implementation is very small and easy to oversee.
+There is no link in the paper regarding the implementation but there is a supplementary material link on the openreview link of the publication page on neurips (https://openreview.net/attachment?id=7PORYhql4V&name=supplementary_material). The code has nearly no comments. In the readme the authors state installation requirements, tutorials regarding training and visualisation of the experiments. The implementation is very small and easy to oversee.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

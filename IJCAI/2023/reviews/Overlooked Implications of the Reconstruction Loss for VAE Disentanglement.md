@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [3]
 
-The authors link to a repository called Disent and state that this is a contribution of the work. It is a 'PyTorch disentagelement framework with common models metrics and datasets'. As a framework, it checks all the boxes of understandble code, with full documentation, extensive readme, and extensive comments. However, the code actually used to produce the experiments of the paper is not directly shared. Thus still some effort is to be done, but with the extensive framework this should be very much aleviated.
+The authors link to a repository called Disent (https://github.com/nmichlo/disent) and state that this is a contribution of the work. It is a bit confusing though because the citing paper in the readme differs from this paper. It is a 'PyTorch disentagelement framework with common models metrics and datasets'. As a framework, it checks all the boxes of understandble code, with full documentation, extensive readme, and extensive comments. However, the code actually used to produce the experiments of the paper is not directly shared. Thus still some effort is to be done, but with the extensive framework this should be very much aleviated.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

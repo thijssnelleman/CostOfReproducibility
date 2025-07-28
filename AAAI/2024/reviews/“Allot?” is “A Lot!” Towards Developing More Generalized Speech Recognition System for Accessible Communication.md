@@ -7,7 +7,7 @@ AAAI/2024/Proceedings/32445 - “Allot?” is “A Lot!” Towards Developing Mo
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[4]
+[6]
 
 The authors state they use a model/method called Wav2Vec but do not provide an implementation of this. Although this implementation could be straight forward (using Wave2Vec docs), it would still be welcome for this purpose, especially regarding the data transformation applied (Noise injections for their experiments).
 
