@@ -8,7 +8,7 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[7]
+[8]
 
 The authors state the programming language and framework (PyTorch) used with version numbers in 6.2. The implementation is not shared. Pseudo code give in algorithm 1.
 

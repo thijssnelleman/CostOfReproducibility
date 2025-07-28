@@ -8,9 +8,9 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[5]
+[9]
 
-The authors use an implementation from other authors but they do link it directly (https://github.com/david-dunson/bnphomc/blob/master/Prior_on_K_js.m). The code there is quite cryptic and its not clear what is used for what, no installation notes.
+The authors use an implementation from other authors but they do link it directly (https://github.com/david-dunson/bnphomc/blob/master/Prior_on_K_js.m). The code there is extremely cryptic and its not clear what is used for what, no installation notes. The timestamping also does not make sense with the publication date/year. The link the authors state 'we used the code available from' is not the code from this paper.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
