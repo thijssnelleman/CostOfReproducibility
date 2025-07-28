@@ -7,7 +7,7 @@ AAAI/2023/Proceedings/25737 - Local Justice and Machine Learning: Modeling and I
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[3]
+[5]
 
 The authors collect data and model MDPs on it. Although it would be interesting to see the authors implementation on it, it is not the main point of this paper as they more focus on the evaluation of their framework. The authors do provide another public repository on which they based the implementation on. However, the absence of this code does mean it needs to be re-implemented from scratch which is still some effort.
 
@@ -32,7 +32,7 @@ _Given the experimental set-up of the work, how difficult is it to set up a new 
 
 [1]
 
-The data collection is well explained. The metrics are described and clear.
+The metrics are described and clear.
 
 ### Expertise
 _How much effort would it take to acquire the expertise required to reproduce the work independently relying on the available documentation?_
