@@ -8,9 +8,9 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[9]
+[8]
 
-The authors state the implementation and dataset is available online (https://github.com/SonyResearch/gdpr_perceptanon). However the link gives a 404 (26-03-2025). The authors state a few methods they used for parts of their implementation in 5.1, in 5.2 they state the framework used. A very high level overview is given in figure 5.
+The authors state the implementation and dataset is available online (https://github.com/SonyResearch/gdpr_perceptanon). However the link gives a 404 (26-03-2025). The authors state a few methods they used for parts of their implementation in 5.1, in 5.2 they state the framework used. A very high level overview is given in figure 5. There are a few technical details in the appendix.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

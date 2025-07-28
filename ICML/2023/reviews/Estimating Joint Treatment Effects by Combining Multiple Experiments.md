@@ -8,9 +8,9 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[4]
+[3]
 
-There are a lot of code snippits in the appendix. They state their programming language is Python. This gives a lot of good starting points. However not all the code is given so some parts will have to be filled in. 
+There are a lot of detailed code snippits in the appendix. They state their programming language is Python. They also provides links for dependencies used. This gives a lot of good starting points. However not all the code is given so some parts will have to be filled in. 
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

@@ -8,9 +8,9 @@ Project URL: nan
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[10]
+[8]
 
-The authors state their implementation is available online (https://github.com/soerenab/nsode23). The link gives a 404. Figure 1 summarises the method. 
+The authors state their implementation is available online (https://github.com/soerenab/nsode23). The link gives a 404. Figure 1 summarises the method. They provide a technical detail in footnote 3. They also provide some citations to used packages in the references. They also list an opensource reference table in appendix G with citations/URLs.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
