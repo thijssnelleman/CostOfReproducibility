@@ -15,11 +15,11 @@ The authors state their code is coming soon on the repository link provided in t
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
 
-[10]
+[8]
 
-(1/1)
+(0/2)
 
-The authors discuss multiple datasets in section 3. However it is not clear which datasets exactly are being used how.
+The authors discuss multiple datasets in section 3. A large 2D face dataset is used to train on, for which the authors provide several citations and technical descriptions how they transform it for 3D tasks, but it seems to be implied the data set is not public. Secondly, a tiny dataset D is mentioned for optimisation with some details, but this one also does not seem to be public. In general, there are a lot of open questions regarding data in this paper.
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_

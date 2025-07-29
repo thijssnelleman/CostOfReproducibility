@@ -15,11 +15,11 @@ The authors provide a link to their implementation in footnote 1 (https://github
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
 
-[6]
+[5]
 
-(1/1)
+(2/2)
 
-The atuhors use simulated environments (TwoJoint and Maze) which they include in their code with a parameter G. Open-field and TwoJoint are used in the paper. A depicition is given in figure 2 with a description in section 5. The G value is fixed to 10 in the code and not modified. Its not completely clear if its used like this everywhere. The Open-field is not given (unless its maze but thats not clear).
+The authors use simulated environments (TwoJoint and Maze) which they include in their code with a parameter G. Open-field and TwoJoint are used in the paper. A depicition is given in figure 2 with a description in section 5. The G value is fixed to 10 in the code and not modified. Its not completely clear if its used like this everywhere. The Open-field seems to be given in the code under the name "Maze", but it requires some thorough investigation to verify this.
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
