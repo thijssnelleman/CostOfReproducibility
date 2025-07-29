@@ -10,16 +10,16 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [9]
 
-The authors do not share their implementation but do state in what programming language it was implemented and under what OS in section 5.
+The authors do not share their implementation but do state in what programming language it was implemented and under what OS at the end of section 5.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
 
-[8]
+[6]
 
-(2/2)
+(2/4)
 
-The authors conduct experiments in 5.1 on a complete graph with 2 labels. They show the datasets in figure 2 but the generation conditions are not completely clear. In 5.2. and 5.3. they use a different synthetic problem which htey describe with parameter values. They also use real datasets from scikit learn which they give a direct link to. In general it will be quite a lot of work to reconstruct the data.
+The authors conduct experiments in 5.1 on a complete graph with 2 labels. They show the datasets in figure 2 but the generation conditions are not completely clear. In 5.2. and 5.3. they use a different synthetic problem which they describe with parameter values. They also use real datasets from scikit learn which they give a direct link to. In general it will be quite a lot of work to reconstruct the data.
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
