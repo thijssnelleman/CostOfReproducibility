@@ -16,9 +16,9 @@ _Given the data description in the documentation, how much effort take to either
 
 [2]
 
-(1/2)
+(2/2)
 
-The authors use two data sets with clear descriptions and explanations, citations and statistics. The first data set has a download link to it in the implementation documentation, it is unclear whether the second one is (publicly) available.
+The authors use two data sets with clear descriptions and explanations, citations and statistics. The first data set (ECtHR) has a download link to it in the implementation documentation, it is implied that the second one is (publicly) available but is not linked.
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_

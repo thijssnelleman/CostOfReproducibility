@@ -14,11 +14,11 @@ The authors provide a link to their implementation (https://github.com/underdoc-
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
 
-[1]
+[2]
 
 (3/4)
 
-The data is included in the implementation documentation, except for one dataset. The authors collected this data themselves and provide extensive statistics/details on them as well as an informative description.
+The data is included in the implementation documentation, except for one dataset (COVID-CHI). The authors constructed this data themselves. Extensive statistics/details on all datasets are provided as well as an informative description. However, acquisition of this missing dataset will still be nearly impossible, but comparing against it is accessible.
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
