@@ -30,9 +30,9 @@ The authors define hyperparameters in the pseudo code of algorithm 1 and 2. The 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_
 
-[9]
+[4]
 
-There are no statements regarding training/testing on the datasets, yet a training procedure is implied (since in 5.1 a learning rate per data set is mentioned). This makes it difficult to set up a similar experiment. There is also a variance in the results (table 2 for example), meaning the aggregatation and variance types are not given and we also do not know what type of population is created (folds over different data splits, different seeds, ...). The authors state the metric used and provide a citation on it + explanation.
+There are no statements regarding training/testing on the datasets, yet a training procedure is implied (since in 5.1 a learning rate per data set is mentioned) and some details can be decoded from the implementation. This makes it difficult to set up a similar experiment. The authors state each experiment is run with 5 trials with random seeds and they record the mean and standard deviation. The 'I' value represents for synthetic data for the number of nodes in the network. The authors state the metric used and provide a citation on it + explanation.
 
 ### Expertise
 _How much effort would it take to acquire the expertise required to reproduce the work independently relying on the available documentation?_

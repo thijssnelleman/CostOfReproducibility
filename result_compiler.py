@@ -57,7 +57,10 @@ def extract_file(file_path: Path, skip_datasets: bool = False) -> dict:
                result["implementation_url"] = True
             else:
                 result["implementation_url"] = False
+        explanation = " ".join(explanation)
         result[title] = cost
+        result[f"{title}_appendix_mentions"] = explanation.lower().count("appendix")
+        result[f"{title}_checklist_mentions"] = explanation.lower().count("checklist")
     result["public_datasets"] = public_datasets
     result["total_datasets"] = total_datasets
     try:
