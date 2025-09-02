@@ -114,7 +114,7 @@ if __name__ == "__main__":
     # Otherwise, we sample at random
     source = args.source
     if not source:
-        print("Choose the source to sample from (AAAI, IJCAI, ICML, NeurIPS, JAIR, JMLR):")
+        print("Choose the source to sample from (AAAI, IJCAI, ICLR, ICML, NeurIPS, JAIR, JMLR):")
         source = input()
     year = args.year
     if not year:
