@@ -1,0 +1,75 @@
+\begin{table}[ht]
+\centering
+\begin{minipage}{0.45\linewidth}
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+\multicolumn{6}{c}{\textbf{Implementation}} \\
+\midrule
+ & Q1 & Median & Q3 & IQR & Skewness \\
+\midrule
+AAAI & 2.00 & 7.00 & 9.00 & 7.00 & -0.12 \\
+IJCAI & 2.00 & 5.00 & 9.00 & 7.00 & 0.09 \\
+ICML & 1.00 & 2.00 & 8.00 & 7.00 & 0.72 \\
+NeurIPS & 2.00 & 2.00 & 5.00 & 3.00 & 1.16 \\
+JAIR & 2.00 & 3.00 & 9.00 & 7.00 & 0.31 \\
+JMLR & 2.00 & 3.00 & 10.00 & 8.00 & 0.17 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+\multicolumn{6}{c}{\textbf{Data}} \\
+\midrule
+ & Q1 & Median & Q3 & IQR & Skewness \\
+\midrule
+AAAI & 1.00 & 2.00 & 3.00 & 2.00 & 1.33 \\
+IJCAI & 1.00 & 2.00 & 4.00 & 3.00 & 1.47 \\
+ICML & 1.00 & 3.00 & 3.00 & 2.00 & 0.79 \\
+NeurIPS & 2.00 & 3.00 & 4.00 & 2.00 & 0.92 \\
+JAIR & 2.00 & 3.00 & 4.00 & 2.00 & 0.85 \\
+JMLR & 2.00 & 3.00 & 4.00 & 2.00 & 0.44 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\begin{minipage}{0.45\linewidth}
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+\multicolumn{6}{c}{\textbf{Configuration}} \\
+\midrule
+ & Q1 & Median & Q3 & IQR & Skewness \\
+\midrule
+AAAI & 2.00 & 4.00 & 5.00 & 3.00 & 0.89 \\
+IJCAI & 2.00 & 3.00 & 5.00 & 3.00 & 1.04 \\
+ICML & 1.00 & 3.00 & 3.00 & 2.00 & 1.73 \\
+NeurIPS & 3.00 & 3.00 & 4.00 & 1.00 & 1.33 \\
+JAIR & 1.00 & 2.50 & 4.00 & 3.00 & 1.35 \\
+JMLR & 1.00 & 3.00 & 4.00 & 3.00 & 1.18 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+\multicolumn{6}{c}{\textbf{Experimental Procedure}} \\
+\midrule
+ & Q1 & Median & Q3 & IQR & Skewness \\
+\midrule
+AAAI & 1.00 & 2.00 & 3.00 & 2.00 & 1.39 \\
+IJCAI & 1.00 & 2.00 & 3.00 & 2.00 & 1.60 \\
+ICML & 1.00 & 1.00 & 2.75 & 1.75 & 1.04 \\
+NeurIPS & 1.00 & 2.00 & 3.00 & 2.00 & 0.85 \\
+JAIR & 1.00 & 1.00 & 2.00 & 1.00 & 1.68 \\
+JMLR & 1.00 & 1.00 & 2.00 & 1.00 & 1.80 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\caption{The median, first and third quantile and interquantile range of each dimension per venue. Visualisation of the entire dataset can be found in utoref{fig:total_dataset_summary}. The skewness of the distribution is nearly always positive, with the exception of AAAI in the implementation dimension, thus motivating the representation of median rather than mean as it is frequently substantially affected by right skewed distribution outliers except for the implementation dimension which has relatively mild skew values.}
+\label{tab:total_data_statistics_table}
+\end{table}
