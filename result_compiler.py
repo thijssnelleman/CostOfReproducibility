@@ -53,10 +53,11 @@ def extract_file(file_path: Path, skip_datasets: bool = False) -> dict:
             sys.exit(-1)
         explanation = lines[3:]
         if title == "Implementation":
-            if re.search(url_regex, " ".join(explanation)):
-               result["implementation_url"] = True
+            url_search = re.search(url_regex, " ".join(explanation))
+            if url_search:
+               result["implementation_url"] = url_search.group(0)
             else:
-                result["implementation_url"] = False
+                result["implementation_url"] = None
         explanation = " ".join(explanation)
         result[title] = cost
         result[f"{title}_appendix_mentions"] = explanation.lower().count("appendix")
