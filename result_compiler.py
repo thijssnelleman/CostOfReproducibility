@@ -64,22 +64,21 @@ def extract_file(file_path: Path, skip_datasets: bool = False) -> dict:
         result[f"{title}_checklist_mentions"] = explanation.lower().count("checklist")
     result["public_datasets"] = public_datasets
     result["total_datasets"] = total_datasets
-    try:
-        assert result["implementation_url"] is not None
-        if not skip_datasets:
+    if not skip_datasets:
+        try:        
             assert result["public_datasets"] is not None
             assert result["total_datasets"] is not None
-    except AssertionError:
-        print("ERROR in review:", file_path)
-        print(result)
-        sys.exit(-1)
+        except AssertionError:
+            print("ERROR in review:", file_path)
+            print(result)
+            sys.exit(-1)
     return result
 
 def main():
     """First compile the regular reviews, then the 2nd reviews."""
     target = Path("reviews.csv")
 
-    sources = ["AAAI", "ICML", "IJCAI", "JAIR", "JMLR", "NeurIPS"]
+    sources = ["AAAI", "IJCAI", "ICLR", "ICML", "NeurIPS", "JAIR", "JMLR"]
     years = ["2022", "2023", "2024"]
 
     rows = [["source", "year"]]
