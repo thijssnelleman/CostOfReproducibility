@@ -24,7 +24,7 @@ The authors use a synthetic dataset for which they provide code. The synthetic g
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[8]
+[4]
 
 HP details are given in S3.4. in an informal summary in the text where they are stated for the synthetic experiments. The model design for the real world data is discussed in 5.2. and in S3.4. they state they 'follow the values' of a baseline method. A full overview of the parameters is missing. No acquisition specified.
 

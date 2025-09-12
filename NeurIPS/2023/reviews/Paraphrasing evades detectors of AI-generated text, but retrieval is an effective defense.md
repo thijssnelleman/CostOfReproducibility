@@ -24,9 +24,9 @@ The authors build a dataset in section 3. They state the process in details with
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[10]
+[6]
 
-Hyperparameters remarks are made in a few parts of the paper, but real discussion on it is not done.
+Hyperparameters remarks are made in a few footnotes of the paper, but a structured overview is not given. There are scripts in the implementation with parameter values, but these are relatively unstructured. For some values it is stated they are 'default'.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

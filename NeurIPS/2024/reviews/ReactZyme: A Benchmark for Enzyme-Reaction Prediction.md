@@ -24,9 +24,9 @@ The authors create their own dataset in the paper. They source it from two publi
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[10]
+[6]
 
-The authors benchmark their method from figure 2 on the new dataset. However considered HPs are not clearly described. 
+The authors benchmark their method from figure 2 on the new dataset. However considered HPs are not clearly described. Model architectures can be extracted from code, but no config files or running scripts.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

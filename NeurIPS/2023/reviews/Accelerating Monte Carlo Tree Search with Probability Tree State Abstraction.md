@@ -24,9 +24,9 @@ The authors use simulated environments which automatically install via implement
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[9]
+[5]
 
-Hyperparameters are briefly stated in 5.3. The code reveals many more parameters. These are not discussed, but a starting point can be found in the code.
+Hyperparameters are briefly stated in 5.3. The code reveals many more parameters. These are not discussed, but a starting point can be found in the code, although it would have to be checked if they match the experiments.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

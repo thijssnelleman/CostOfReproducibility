@@ -26,7 +26,7 @@ _Given the (hyper)parameters, including semantic parameters, of the method: How 
 
 [9]
 
-The network structure is discussed in section 1 of the supplementary material, but real HP overview is missing.
+The network structure is discussed in section 1 of the supplementary material, but full HP overview is missing.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

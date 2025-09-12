@@ -24,7 +24,7 @@ The authors state in sec 4 they use four public datasets in their experiments (H
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[9]
+[6]
 
 The model architectures are briefly described at the end of section 4. A full overview or summary on the hyperparameters is not given. Their values can possibly be extracted from the code (hard coded) but it would have to be an assumption that they are the values used in the experiments. 
 

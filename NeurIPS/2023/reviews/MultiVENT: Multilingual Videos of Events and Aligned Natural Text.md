@@ -24,9 +24,9 @@ The authors introduce a novel dataset and provide details and statistics on it i
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[8]
+[6]
 
-The authors use a previous method and apply it to their data. In sec 5.2. they cite this source and provide some minor details regarding the architecture. Real HP values not given. 
+The authors use a previous method and apply it to their data. In sec 5.2. they cite this source and provide some minor details regarding the architecture. A configuration file can be found in the implementation. It would need to be checked if these are the used values per experiment.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

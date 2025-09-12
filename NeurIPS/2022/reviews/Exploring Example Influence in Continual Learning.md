@@ -24,9 +24,9 @@ The authors state 3 datasets (split CIFAR-10, CIFAR-100 and Mini-Imagenet) with 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[10]
+[7]
 
-The authors refer to a previous work for hyper-parameters. They are not given except for the number of epochs.
+The authors refer to a previous work for hyper-parameters. They are not given except for the number of epochs. Some can be deduced from the code, but in general most information is not presented here.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

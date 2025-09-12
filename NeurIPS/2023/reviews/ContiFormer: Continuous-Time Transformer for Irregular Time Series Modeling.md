@@ -24,9 +24,9 @@ The authors provide links for Multivariate2018, MIMIC, StackOverflow, BookOrder,
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[8]
+[5]
 
-The authors state hyperparameter optimisation is done in the implementation readme. An ablation study is done in the appendix. Parameter values can be found in the example scripts of the readme, but a full overview is missing and its a bit unclear.
+The authors state hyperparameter optimisation is done in the implementation readme. An ablation study is done in the appendix. Parameter values can be found in the example scripts of the readme, but a full overview is missing and its a bit unclear what the exact values are per experiment and how they were selected.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

@@ -25,9 +25,9 @@ The atuhors use CIFAR-10. No details.
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[10]
+[6]
 
-For most parameters the authros refer to another work. For their own parameters (K+ and K-) they evaluate the method on various values and report the highest. These values are not specified.
+For most parameters the authors refer to another work. For their own parameters (K+ and K-) they evaluate the method on various values and report the highest. These values are not specified. Parameter Epsilon is given through theoretical analysis.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

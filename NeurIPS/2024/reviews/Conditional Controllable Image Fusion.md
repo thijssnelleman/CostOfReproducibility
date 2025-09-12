@@ -24,9 +24,9 @@ The authors state the datasets used (LLVIP, MFFW and MEFB) in section 5. with ci
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[9]
+[6]
 
-In section 4.3 θ is defined as a hyperparameter. In algorithm 1 no parameters are defined but there are some variables in the code. There are some configuration files in the implementation. It is unclear what the authors consider as (hyper)parameters. 
+In section 4.3 θ is defined as a hyperparameter. In algorithm 1 no parameters are defined but there are some variables in the code. There are some configuration files in the implementation. 
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

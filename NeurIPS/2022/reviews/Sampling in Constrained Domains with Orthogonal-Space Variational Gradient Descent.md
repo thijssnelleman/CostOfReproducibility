@@ -24,9 +24,9 @@ The authors use a synthetic distribution, the Adult Income dataset and Loan Clas
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[8]
+[7]
 
-Hyperparameter stated in algorithm 1. This is not mentioned after. Default values can be found in the code, but it would have to be 'guessed' that these were actually used for the presented experiments.
+Hyperparameter stated in algorithm 1. This is not mentioned after. Default values can be found in the code, but it would have to be assumed that these were actually used for the presented experiments.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

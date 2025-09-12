@@ -8,7 +8,7 @@ Project URL:
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[10]
+[9]
 
 The authors publish their code online and link it in footnote 1 (https://github.com/The-FinAI/FinCon). The repository is empty. Framework overview in figure 1 and 2. Pseudo code given in algorithm 1.
 
@@ -24,9 +24,9 @@ In appendix A.5. the authors state the datasets collected and its sources, but f
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[10]
+[9]
 
-The hyperparameters in algorithm 1 are not really specified but there are variables that are not stated as input. Unclear what the hyperparameters are. There is a mention of a temperature variable being set to 0.3 in section 4.1.
+The hyperparameters in algorithm 1 are not really specified but there are variables that are not stated as input. Unclear what the hyperparameters are. There is a mention of a temperature variable being set for the LLM to 0.3 in section 4.1. There is a mention of HP K in appendix A.13.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_
