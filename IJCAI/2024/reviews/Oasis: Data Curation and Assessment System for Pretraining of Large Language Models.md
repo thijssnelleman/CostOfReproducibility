@@ -7,7 +7,7 @@ IJCAI/2024/Proceedings/1048 - Oasis: Data Curation and Assessment System for Pre
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[6]
+[5]
 
 The authors provide a source for their implementation (https://github.com/tongzhou21/Oasis). The readme is empty however, and the code is largely undocumented. The sizeable directory/file structure will make it an effort to understand the flow of the process, thus raising the cost of re-implementation. 
 

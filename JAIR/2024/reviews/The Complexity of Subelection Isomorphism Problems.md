@@ -8,7 +8,7 @@ Project URL:
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[6]
+[5]
 
 The authors provide their implementation in footnote 3 (https://github.com/Project-PRAGMA/Subelections). There they provide two zipfiles, one for fig 1/2 and one for fig 3. In the readme they state installation instructions and how to run the code to repeat the experiments. The installation instructions are not enough based on the code. Requries more comments. Code requires an index. The code seems incomplete.
 

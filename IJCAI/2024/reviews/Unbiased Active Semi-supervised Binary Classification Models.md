@@ -7,7 +7,7 @@ IJCAI/2024/Proceedings/0485 - Unbiased Active Semi-supervised Binary Classificat
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[8]
+[5]
 
 The authors provide a link to the codes used for the numerical studies (https://github.com/IJCAI-24/ActiveSemiPrediction). The repository lacks a readme and the code has very few comments. In general it will take some serious engineering to understand how the code works exactly to use it as input for re-implementation. There are no overviews presented in the paper that could help here.
 

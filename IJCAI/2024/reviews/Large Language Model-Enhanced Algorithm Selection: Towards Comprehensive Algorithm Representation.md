@@ -7,7 +7,7 @@ IJCAI/2024/Proceedings/0579 - Large Language Model-Enhanced Algorithm Selection:
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[6]
+[5]
 
 The authors provide a link to their implementation (https://github.com/wuxingyu-ai/AS-LLM). In the readme they introduce the method and a short description on required libraries. The files are given as a zip, which is a bit of a nuisance. The code has very few comments and some statements contain hardcoded paths which will make execution more difficult. An entry point also seems to be missing. The framework overview in figure 1 does explain the general structure/flow. 
 

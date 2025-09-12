@@ -7,7 +7,7 @@ IJCAI/2022/Proceedings/0547 - Local Differential Privacy Meets Computational Soc
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[7]
+[5]
 
 The authors share a link to their implementation (https://github.com/polyapp/poldp). The readme is nearly empty. The code structure is unclear, and the files seem to have very few comments. They also publish data sets here. In addition to that, alot of files have unindicative names, and/or are not readable. This worsens the usability of the implementation substantially. It is also hard to verify whether all the needed code is actually presented.
 

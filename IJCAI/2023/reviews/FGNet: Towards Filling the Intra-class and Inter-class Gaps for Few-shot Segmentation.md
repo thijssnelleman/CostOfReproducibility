@@ -7,7 +7,7 @@ IJCAI/2023/Proceedings/0194 - FGNet: Towards Filling the Intra-class and Inter-c
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[8]
+[7]
 
 The authors share a link to their implementation (https://github.com/YXZhang979/FGNet). In the readme they briefly state an introduction to the method and that most of the code has been released but the rest is to follow (Last commit 6 months ago, accessed on 11-03-2025). Only the dataset code has some comments. The authors share some details on which their method was built upon in section 3. In general the code requires quite some reverse engineering to use for documentation for re-implementation.
 

@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [7]
 
-The authors link a GitHub repository (https://github.com/Illner/BellaCompiler),, with instructions on how to run their compiler. However it does not include the source code of the compiler itself, which does mean a substanial amount of documentation is missing that would be useful for re-implementation. The authors do explain which components were used of other methods, and the source code of their modified parts. The paper includes an extensive Pseudocode description.
+The authors link a GitHub repository (https://github.com/Illner/BellaCompiler), with instructions on how to run their compiler. However it does not include the source code of the compiler itself, which does mean a substanial amount of documentation is missing that would be useful for re-implementation. The authors do explain which components were used of other methods, and the source code of their modified parts. The paper includes an extensive Pseudocode description.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
