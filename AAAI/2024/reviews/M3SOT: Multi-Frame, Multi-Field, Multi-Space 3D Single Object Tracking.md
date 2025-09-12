@@ -7,9 +7,9 @@ AAAI/2024/Proceedings/28306 - M3SOT: Multi-Frame, Multi-Field, Multi-Space 3D Si
 ### Implementation
 _Given the documentation given by the authors on the method, how much time investment would it be to re-implement the method from scratch?_
 
-[6]
+[3]
 
-The authors provide an implementation source in the abstract (https://github.com/ywu0912/TeamCode.git). The readme is empty. The code also seems to be without any comments. It would thus require serious effort to understand the layout and flow of the process. The authors do provide three small illustrations and one large framework diagram on the work flow of their method which helps with understanding the implementation. 
+The authors provide an implementation source in the abstract, which is not the actual source. In the readme of this link they provide the link to the implementation of the paper (https://github.com/liujia99/M3SOT). The code has installation notes, where to download datasets, how to run the code, model zoo, acknowledgements of repos they used to build theirs. Alot of the directories are empty however making the structure difficult to oversee, and the code does not have a lot of comments.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
@@ -23,9 +23,9 @@ The authors use three datasets which they cite and are seemingly public as they 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
 
-[9]
+[3]
 
-There are no clear statements on hyperparameters in the paper. These values can possibly be extracted from the implementation, but this requires some serious work to verify whether its correct or not.
+There are no clear statements on hyperparameters in the paper. There are structured configuration files per experiment in the implementation however, which are very extensive.
 
 ### Experimental Procedure
 _Given the experimental set-up of the work, how difficult is it to set up a new experiment, similar to those presented in the original work, with the same procedure?_

@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [7]
 
-The authors use four different LLMs on their presented data set and task. The authors state the implementation is to be found online (https://github.com/Zahra-D/Phate) but is missing, but they do explain how the models were prompted.
+The authors use four different LLMs on their presented data set and task. The authors state the implementation is to be found online (https://github.com/Zahra-D/Phate) but code is missing in the link, but they do explain how the models were prompted.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

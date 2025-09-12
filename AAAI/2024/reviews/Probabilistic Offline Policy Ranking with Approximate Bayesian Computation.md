@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [7]
 
-The authors provide a github link (https://github.com/LongchaoDa/POPR-EABC.git) to their implementation, and also the baseline used. Their code repository however has an empty readme, and the code in general lacks documentation. This makes it difficult to use, if at all helpful.
+The authors provide a github link (https://github.com/LongchaoDa/POPR-EABC.git) to their implementation, and also the baseline used. Their code repository however has an empty readme, and the code seems to be incomplete and in general lacks documentation. This makes it difficult to use, if at all helpful. No installation notes, examples or other information.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
