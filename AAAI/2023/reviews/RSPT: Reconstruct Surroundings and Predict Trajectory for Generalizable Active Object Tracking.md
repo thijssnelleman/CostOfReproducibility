@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [10]
 
-The authors provide two github sources of implementations they use, one for baselines comparison the other for their trajectory prediction module, but provide no other source of their own than their project website (https://sites.google.com/view/aot-rspt) which does not provide an implementation source. They do provide an extensive overview of the framework, examples of the problem, and step wise explanation of their method but no details whatsoever on how it was implemented, thus making it nearly impossible to reproduce.
+The authors provide two github sources of implementations they use, one for baselines comparison the other for their trajectory prediction module, but provide no other source of their own than their project website which does not provide an implementation source. They do provide an extensive overview of the framework, examples of the problem, and step wise explanation of their method but no details whatsoever on how it was implemented, thus making it nearly impossible to reproduce.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
