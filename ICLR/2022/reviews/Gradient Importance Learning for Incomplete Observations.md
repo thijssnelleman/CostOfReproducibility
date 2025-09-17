@@ -23,16 +23,16 @@ The authors use MIMIC-III, a de-identified ophthalmic patient dataset obtained f
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for obtaining the reported results, and compare them against their computation budget?_
 
-[2]
+[5]
 
-The authors document the HP and values in the appendix per dataset in the text. They specify grid searches for certain HPs. For other methods they use the values presented by the authors. Structured overview not given.
+The authors document the HP and values in the appendix per dataset in the text. They specify grid searches for certain HPs. For other methods they use the values presented by the authors. Structured overview not given. Final values not given from the gridsearch.
 
 ### Experimental Procedure
 _Given the setup of experiments reported in the work, how difficult is it to set up a new experiment with the same procedure, similar to those presented in the original work?_
 
-[1]
+[2]
 
-The authors measure accuracy and AUC over 3 random masks with average and std dev. Data splits specified in section 4 and appendix D.
+The authors measure accuracy and AUC over 3 random masks with average and std dev, although it is not clear how this works with the datasplits. Data splits specified in section 4 and appendix D.
 
 ### Expertise
 _How much effort would it take to acquire the expertise required to reproduce the work independently relying solely on the available documentation?_
