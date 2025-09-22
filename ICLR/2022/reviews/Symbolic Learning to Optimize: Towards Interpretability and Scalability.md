@@ -23,16 +23,16 @@ The authors use CIFAR10 and CIFAR100 but provide few details.
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for obtaining the reported results, and compare them against their computation budget?_
 
-[2]
+[3]
 
-The authors motivate hyperparameter values in appendix C. and some are listed in text with grids in section 4. No structured overview.
+The authors motivate hyperparameter values in appendix C. and some are listed in text with grids in section 4 but the strategy is not clear for all. No structured overview.
 
 ### Experimental Procedure
 _Given the setup of experiments reported in the work, how difficult is it to set up a new experiment with the same procedure, similar to those presented in the original work?_
 
-[1]
+[3]
 
-The authors measure accuracy on the test set (static split) over single runs.
+The authors measure accuracy on the test set (static split implied, but this is difficult to determine even from code) over single runs.
 
 ### Expertise
 _How much effort would it take to acquire the expertise required to reproduce the work independently relying solely on the available documentation?_
