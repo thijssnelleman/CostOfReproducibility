@@ -20,13 +20,13 @@ Regular files:
 
 Code:
 - 2nd_review_analysis.ipynb  # This notebook contains all code used for analysing the 2nd reviews
-- analysis.ipynb  # This notebook contains all general data analysis, such as paper awards etc.
+- analysis.ipynb  # This notebook contains all general data analysis such as dimensions visualisation, statistical tests, paper awards etc.
+- correlation_analysis.ipynb  # This notebook contains the code for analysing the correlation between dimensions and public rates, including visualisations
 - data_enrichtment.py  # This code as used for the small SCOPUS experiment in the appendix
 - enriched_analysis.ipynb  # This code was used to analyse the SCOPUS enriched data in the appendix
 - latex.py  # Used to generate the tables for the paper from the notebooks. The results were usually slightly modified by hand afterwards
 - paper_sampling.py  # Used to randomly select papers from a venue / year, which then downloads the paper and writes a review template to be filled in
 - result_compiler.py  # Compiles (And verifies!) all reviews into a single file for analysis
-- review_sampler.py  # Stratified random sampling of reviews for a second review
 
 Each source also has its own data scraper, which is explained in the structure below.
 
