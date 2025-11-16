@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [3]
 
-The authors provide a link to their implementation (https://github.com/zachstarkk/ASM2TV). A readme is missing. The authors present configuration files for two experiments, and data loading / preprocessing scripts. The code is largely without comments. The documentation could definetily be improved, but all required materials do seem to be present. The authors provide psuedo code on their algorithm, and three illustrations/schematics on their framework. 
+The authors provide a link to their implementation (https://github.com/zachstarkk/ASM2TV). A readme is missing. The authors present configuration files for two experiments, and data loading / preprocessing scripts. The code is largely without comments. The documentation could definitely be improved, but all required materials do seem to be present. The authors provide pseudo code on their algorithm, and three illustrations/schematics on their framework. 
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
