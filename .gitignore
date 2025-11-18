@@ -1,3 +1,4 @@
 *.pyc
+.venv
 api_keys.yaml
 paper_data_txt/
