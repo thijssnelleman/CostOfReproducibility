@@ -1,5 +1,5 @@
 ## DeCAF- A Deep Convolutional Activation Feature for Generic Visual Recognition
-Jeff Donahue, Yangqing Jia⇤, Oriol Vinyals, Judy Hoffman, Ning Zhang, Eric Tzeng, Trevor Darrell
+Jeff Donahue, Yangqing Jia, Oriol Vinyals, Judy Hoffman, Ning Zhang, Eric Tzeng, Trevor Darrell
 Keywords: 
 extra_reviews/2014/Proceedings/DeCAF- A Deep Convolutional Activation Feature for Generic Visual Recognition.pdf
 $PROJECT URL$
@@ -23,7 +23,7 @@ The authors use benchmark datasets; SUN-397, ILSVRC-2012, Berg et al. (2012) dat
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for obtaining the reported results, and compare them against their computation budget?_
 
-[6]
+[7]
 
 The authors state they fix the parameters across all methods (sec 4.4). There are some notes throughout the work regarding the architecture, but an overview is missing. Its also not clear. A lot will have to be deduced from the provided examples to attempt reproduction, which will be quite some work.
 
