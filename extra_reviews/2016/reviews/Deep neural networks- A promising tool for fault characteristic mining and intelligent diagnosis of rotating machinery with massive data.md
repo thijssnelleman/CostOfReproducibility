@@ -1,6 +1,6 @@
 ## Deep neural networks- A promising tool for fault characteristic mining and intelligent diagnosis of rotating machinery with massive data
-$AUTHORS$
-Keywords: $KEYWORDS$
+Feng Jia, Yaguo Lei n, Jing Lin, Xin Zhou, Na Lu
+Keywords: Deep learning, Deep neural networks, Intelligent fault diagnosis, Rotating machinery, Massive data
 extra_reviews/2016/Proceedings/Deep neural networks- A promising tool for fault characteristic mining and intelligent diagnosis of rotating machinery with massive data.pdf
 
 
