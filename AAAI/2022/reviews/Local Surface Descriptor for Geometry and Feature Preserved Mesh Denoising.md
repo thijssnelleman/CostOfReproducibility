@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [10]
 
-The authors do not provide their source code. There are a few notes on the implementation details of other methods they use/source, but non of their own.
+The authors do not provide their source code. There are a few notes on the implementation details of other methods they use/source, but none of their own. Framework provided in figure 4.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_

@@ -9,7 +9,7 @@ _Given the documentation given by the authors on the method, how much time inves
 
 [10]
 
-The authors do not provide any details on their implementation.
+The authors do not provide any details on their implementation. Flowchart overviewing the method in figure 2 and 4.
 
 ### Data
 _Given the data description in the documentation, how much effort take to either: Find the same dataset the authors used, or similar datasets and defend the comparability, or acquire one from scratch?_
