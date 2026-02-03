@@ -43,7 +43,11 @@ with enriched_output.open('a+', newline='') as myfile:
      if len(lines) > 0:
          header_present = True
      if len(lines) > 1:
-        already_done_titles = pd.read_csv(enriched_output)["title"].to_list()
+        df = pd.read_csv(enriched_output)
+        num_cols = len(df.columns)
+        title_col = df.columns.to_list().index("title")
+        cite_count_col = df.columns.to_list().index("citedby_count")
+        already_done_titles = [s.lower() for s in df["title"].to_list()]
 
 # Some little stealing from https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python
 def deEmojify(text):
@@ -56,10 +60,32 @@ def deEmojify(text):
                            "]+", flags = re.UNICODE)
     return regrex_pattern.sub(r'',text)
 
+# Titles that just won't rematch with their original
+bad_titles = [
+    "MMVQA: A Comprehensive Dataset for Investigating Multipage Multimodal Information Retrieval in PDF-based Visual Question Answering",
+    "DANETs: Deep Abstract Networks for Tabular Data Classification and Regression",
+    "‘Beach’ to ‘Bitch’: Inadvertent Unsafe Transcription of Kids’ Content on YouTube",
+    "FastAMI – a Monte Carlo Approach to the Adjustment for Chance in Clustering Comparison Metrics",
+    "RSPT: Reconstruct Surroundings and Predict Trajectory for Generalizable Active Object Tracking",
+    "“Allot?” Is “A Lot!” Towards Developing More Generalized Speech Recognition System for Accessible Communication",
+    "Fair Equilibria in Sponsored Search Auctions: The Advertisers' Perspective",
+    "Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval (Extended Abstract)",
+    "GS2P: A Generative Pre-trained Learning to Rank Model with Over-parameterization for Web-Scale Search (Extended Abstract)",
+    "Topological Graph Neural Networks",
+    "Scaling Laws for Neural Machine Translation",
+    "Reversible Column Networks",
+    "KWIKBUCKS: CORRELATION CLUSTERING WITH CHEAP-WEAK AND EXPENSIVE-STRONG SIGNALS",
+    "QUANTIZED COMPRESSED SENSING WITH SCORE-BASED GENERATIVE MODELS",
+    "Multilinear Operator Networks",
+    "Mixture of LoRA Experts",
+    "Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors",
+    "Computing Unsatisfiable Cores for LTLf Specifications",
+]
+
 for title in titles:
     # Testing example
     #title = "Joint Human Pose Estimation and Instance Segmentation with PosePlusSeg"
-    if title in already_done_titles:
+    if title.lower() in already_done_titles:
         print(f"\tAlready present: {title}. Skipping.")
         continue
 
@@ -75,19 +101,41 @@ for title in titles:
     except Exception as ex:
         print(f"Exception on title: {title}")
         print(ex)
-        print("Continuing...")
-        input()
+        print("Type citation count or anything else to skip: ", end="")
+        c_count = input()
+        try:
+            c_count = int(c_count)
+        except:
+            continue
+        t_output = ["" for _ in range(num_cols)]
+        t_output[title_col] = f'"{title}"'
+        t_output[cite_count_col] = str(c_count)
+        with enriched_output.open("a+") as fout:
+            fout.write(f"{','.join(t_output)}\n")
         continue
 
     if s.results is None:
         print(f"Could not find: {title}")
-        if not unfindable_output.exists():
-            unfindable_output.touch()
-        with unfindable_output.open("a+") as fout:
-            fout.write(f"{title}\n")
+        print("Type citation count or anything else to skip: ", end="")
+        c_count = input()
+        try:
+            c_count = int(c_count)
+        except:
+            if not unfindable_output.exists():
+                unfindable_output.touch()
+            with unfindable_output.open("a+") as fout:
+                fout.write(f"{title}\n")
+            continue
+        t_output = ["" for _ in range(num_cols)]
+        t_output[title_col] = f'"{title}"'
+        t_output[cite_count_col] = str(c_count)
+        with enriched_output.open("a+") as fout:
+            fout.write(f"{','.join(t_output)}\n")
         continue
 
     if len(s.results) > 1:
+        if title in bad_titles:
+            continue
         print(f"Multiple results for: {title}")
         option_list = [{name: item for name, item in zip(option._fields, option)}
                        for option in s.results]
@@ -108,6 +156,7 @@ for title in titles:
 
     if paper_meta["title"] in already_done_titles:
         print(f"Already wrote: {paper_meta["title"]}. Skipping.")
+        continue
 
     print(f"Writing {title} to file.")
     # Write to output

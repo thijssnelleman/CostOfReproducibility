@@ -6,3 +6,4 @@ nbformat==5.10.4
 kaleido==1.0.0
 # For SCOPUS
 PyYAML==6.0.2
+pybliometrics==4.4.1
