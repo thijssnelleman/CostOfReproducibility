@@ -19,7 +19,7 @@ _Given the data description in the documentation, how much effort take to either
 
 (4/5)
 
-In sectio n5 the authors use ImageNet (citation), ObjectNet (citation), but do not provide any details on the datasets. In section 6.2 they use EyePACS dataset (no citation provided and it seems to be private). In section 7 the authors use wikipedia and bookcorpus. 
+In section 5 the authors use ImageNet (citation), ObjectNet (citation), but do not provide any details on the datasets. In section 6.2 they use EyePACS dataset (no citation provided and it seems to be private). In section 7 the authors use wikipedia and bookcorpus. 
 
 ### Configuration 
 _Given the (hyper)parameters, including semantic parameters, of the method: How much effort would it take to acquire the algorithm configurations used for their results, and compare against their budgetary constraints?_
