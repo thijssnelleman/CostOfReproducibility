@@ -1,2 +1,0 @@
-Heterogeneous-Agent Reinforcement Learning
-IMO^3: Interactive Multi-Objective Off-Policy Optimization
